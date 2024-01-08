@@ -16,7 +16,8 @@ body {
   width: 100%;
 }
 
-.matrix-inf .more-inf {
+.matrix-inf 
+.more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -32,7 +33,8 @@ body {
   margin: 0 auto 0;
 }
 
-.task-label, .text-input {
+.task-label, 
+.text-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -47,7 +49,8 @@ body {
   padding: 0px;
 }
 
-.task, .block-name {
+.task, 
+.block-name {
   list-style: none;
 }
 
@@ -70,7 +73,8 @@ input,button {
 }
 
 /* Heading */
-.block-name, .add-task-label {
+.block-name, 
+.add-task-label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -147,21 +151,25 @@ input,button {
 }
 
 /* Completed */
-#completed-block .task-label {
+#completed-block
+.task-label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.task .text-input {
+.task 
+.text-input {
   display: none;
 }
 
-.edit-mode .text-input {
+.edit-mode 
+.text-input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .task-label {
+.edit-mode 
+.task-label {
   display: none;
 }
